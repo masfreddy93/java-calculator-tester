@@ -4,6 +4,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		System.out.println("hola");
+		Calculator c = new Calculator(4.0f, 2.0f);
+		String res = c.toString();
+		System.out.println(res);
+		
+		
+		
 	}
 }

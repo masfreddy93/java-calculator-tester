@@ -28,12 +28,7 @@ public class Calculator {
 		this.num2 = num2;
 	}
 	
-	/*
-	 * add(float num1, float num2) : float
-	- subtract(float num1, float num2) : float
-	- divide(float num1, float num2) : float
-	- multiply(float num1, float num2) : float
-	 */
+	
 	
 	public float add() {
 		

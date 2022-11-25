@@ -45,6 +45,14 @@ public class Calculator {
 	}
 	public float divide() {
 		
+		
+		if(getNum2() == 0) {
+			
+			throw new IllegalArgumentException(
+					"Il divisore non può essere 0"
+				);
+		}
+
 		return getNum1() / getNum2();
 	}
 	
